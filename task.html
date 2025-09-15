@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array forEach</title>
+</head>
+<body>
+    <h1>Array forEach()</h1>
+    <p id="output"></p>
+    <script>
+        const text=["a","b","c","d"];
+        let text1 =" ";
+        text.forEach((value,index,array)=>(text1+=value+"<br>"));
+        document.getElementById("output").innerHTML=text1;
+    </script>
+</body>
+</html>

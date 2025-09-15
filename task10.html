@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array entries</title>
+  </head>
+  <body>
+    <h1>Array entries()</h1>
+    <p id="output"></p>
+    <script>
+      const array = ["Apple", "Banana", "Mengo", "Orange", "Lemon"];
+      const array2 = array.entries();
+   
+      for (let x of array2) {
+    
+      document.getElementById("output").innerHTML += x+"<br>";
+      }
+    </script>
+  </body>
+</html>

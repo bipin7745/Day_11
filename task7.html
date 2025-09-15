@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Some</title>
+</head>
+<body>
+    <h1>Array Some()</h1>
+    <p id="output"></p>
+    <script>
+        const array=[20,2,32,8,,16,12,26];
+        const array2 = array.some((value)=>
+        {return(value>18)}  
+    );
+    document.getElementById("output").innerHTML= "Some over 18 is "  +array2;
+    </script>
+</body>
+</html>

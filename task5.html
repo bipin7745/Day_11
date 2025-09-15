@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array reduceRight</title>
+</head>
+<body>
+    <h1>Array reduceRight()</h1>
+    <p id="output"></p>
+    <script>
+        const array=[1,2,3,4,5];
+        const array2 = array.reduceRight((total,value)=>
+        {return(total+value)}  
+    );
+    document.getElementById("output").innerHTML=array2;
+    </script>
+</body>
+</html>

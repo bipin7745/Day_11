@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Spread min anx mav value</title>
+  </head>
+  <body>
+    <h1>Array Spread Two Array Minimum and Maximum</h1>
+    <p id="output"></p>
+    <script>
+      const numbers = [23, 55, 21, 87, 56];
+      let minValue = Math.min(...numbers);
+      let maxValue = Math.max(...numbers);
+      document.getElementById("output").innerHTML =
+        "Min = " + minValue + "<br>Max = " + maxValue;
+    </script>
+  </body>
+</html>

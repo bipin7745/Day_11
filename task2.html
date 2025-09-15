@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array FlatMap</title>
+</head>
+<body>
+    
+    <h1>Array flatMap()</h1>
+    <p id="output"></p>
+    <script>
+        let array=[20,3,25,14,8,32];
+   
+        let array2=array.flatMap(x => [x, x * 10])
+    document.getElementById("output").innerHTML=array2;
+    </script>
+</body>
+</html>
